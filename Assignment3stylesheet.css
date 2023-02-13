@@ -1,0 +1,54 @@
+h1 {
+    color: black;
+    background-color: red;
+}
+
+h2 {
+    color:darkorange;
+    background-color: seashell;
+}
+
+h3 {
+    color: cyan;
+    background-color: white;
+}
+
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+  }
+
+a:hover {
+    color:yellow;
+    text-decoration:underline;
+}
+
+
+  .bluetext {
+    color:blue
+}
+
+.purpletext {
+    color: purple;
+}
+
+h4 {
+    color: darkviolet;
+}
+
+.salmontext {
+    color: salmon;
+}
+
+.tealtext {
+    color: teal;
+}
+
+li {
+    color: blue;
+}
