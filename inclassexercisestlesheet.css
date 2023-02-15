@@ -1,0 +1,47 @@
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color:red;
+    text-decoration:underline;
+}
+
+h1 {
+    color: white;
+}
+
+header {
+    background-color: rgb(181, 111, 247);
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+h4 {
+    color: yellow;
+    background-color: green;
+}
+
+h5 {
+    color: red;
+    background-color: yellow;
+}
+
+.redtext {
+    color:red;
+}
+
+.greentext {
+    background-color: rgb(171, 240, 171);
+}
+
+.lastsection {
+    background-color: yellow;
+}
