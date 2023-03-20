@@ -1,0 +1,116 @@
+#wrapper{
+    width: 960px;
+    border: 1px solid black;
+    margin: 1em auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+  }
+
+  nav li {
+    border: 1px solid blue;
+    width: 150px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+    background-color: blue;
+    text-align: center;
+    display: inline-table; 
+}
+
+    nav li a {
+        color: rgb(100, 100, 245);
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+     }
+
+     nav li :hover {
+        color: white;
+     }
+
+     h1 {
+        font-family: arial;
+        font-style: italic;
+        color: rgb(100, 100, 245);
+        background-color: blue;
+     }
+
+     nav {
+        grid-column: span 3;
+    }
+    
+    main {
+        grid-column: span 2;
+    }
+    
+    aside {
+        grid-column: span 2;
+        background-color: rgb(98, 98, 252);
+    }
+    
+    footer {
+        grid-column: span 3;
+    }
+    header {
+        grid-column: span 3;
+    }
+    
+    main img {
+    float: right;
+    width: 240px;
+    margin-left: 10px;
+    margin-right: 5px;
+    
+    }
+    
+    .customtext{
+        color: white;
+        border: ;
+    }
+    
+    .customtext2 {
+        font-family: verdana;
+        font-style: italic;
+        color: white;
+        background-color: orange;
+        text-align: center;
+        padding-bottom: 45px;
+        padding-top: 20px;
+        padding-left: 45px;
+        padding-right: 45px;
+        border: 2.5px solid black;
+        clear: both;
+        margin: 0;
+    }
+
+
+    .customtext3 {
+    font-family: verdana;
+    font-style: italic;
+    color: white;
+    background-color: red;
+    text-align: center;
+    padding-bottom: 45px;
+    padding-top: 20px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border: 2.5px solid black;
+    clear: both;
+    margin: 0;
+
+    }
+
+    main a {
+        color: red;
+    }
+
+    a {
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+    padding-right: 50px;
+    }
+     a :hover{
+        color: white;
+     }
