@@ -34,14 +34,18 @@ h1 {
 
  .rightimage{
     float: right;
+    width: 300px;
+    box-shadow: 50px 50px 10px black;
  }
 
  .middleimage{
     float: center;
+    width: 300px;
  }
 
  .leftimage{
     float: left;
+    width: 300px;
  }
 
  .customtext1{
@@ -59,3 +63,7 @@ h1 {
         margin: 0;
     
  } 
+
+ h2{
+   color: black;
+ }
