@@ -40,7 +40,7 @@ h1 {
     font-style: italic;
     color: black;
     background-color: orange;
-    text-align: center;
+    text-align: justify;
     padding-bottom: 45px;
     padding-top: 20px;
     padding-left: 45px;
@@ -56,6 +56,7 @@ h1 {
     font-family: Georgia;
 
 }
+
 
 h2{
     font-family: cursive;
@@ -86,5 +87,29 @@ nav li a:hover {
  }
 
  body{
-    background-image: url(black\ sand\.jpeg)
+    background-image: url("white background.jpeg");
+ }
+
+ img{
+    height: 200px;
+    padding: 10px;
+    border: 10px solid black;
+    margin-bottom: 30px;
+    margin-top: 30px;
+ }
+
+ .leftimage{
+    float: inline-start;
+    margin-left: 30px;
+ }
+
+ .middleimage{
+    float: inline-start;
+    margin-left: 135px;
+    margin-right: 30px;
+ }
+
+ .rightimage{
+    float: inline-end;
+    margin-right: 30px;
  }

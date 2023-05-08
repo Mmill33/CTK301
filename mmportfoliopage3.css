@@ -50,3 +50,48 @@ h1 {
  body{
     background-image: url(black\ background.jpeg);
  }
+
+ img{
+    height: 500px;
+    padding: 10px;
+    border: 10px solid black;
+    margin-bottom: 50px;
+ }
+
+ .leftimage{
+    float: left;
+ }
+
+ .middleimage{
+    float: center;
+    margin-left: 100px;
+ }
+
+ .rightimage{
+    float: right;
+ }
+
+ .customtext{
+    float: left;
+    text-align: center;
+ }
+
+ body{
+    background-image: url("white background.jpeg");
+ }
+
+ .customtext{
+    font-family: verdana;
+    font-style: italic;
+    color: black;
+    background-color: orange;
+    text-align: justify;
+    padding-bottom: 45px;
+    padding-top: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border: 2.5px solid black;
+    clear: both;
+    margin: 0;
+
+} 
